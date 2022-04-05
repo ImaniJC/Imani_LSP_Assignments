@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignment5.implementation;
+package org.howard.edu.lsp.assignment6.integerset;
 import java.util.ArrayList;
 
 import org.w3c.dom.Node;
@@ -56,11 +56,11 @@ public class IntegerSet {
 		// 
 		/** 
 		 * Returns true if the set contains the value, otherwise false
-		 * @param i
+		 * @param value
 		 * @return
 		 */
-		public boolean contains(int i) {
-			if(setA.contains(i)== true) {
+		public boolean contains(int value) {
+			if(setA.contains(value)== true) {
 				return true;
 			}
 			else {
@@ -184,12 +184,6 @@ public class IntegerSet {
 		public ArrayList<Integer> getlist() {
 			// TODO Auto-generated method stub
 			return setA;
-		}
-
-
-		public int size() {
-			// TODO Auto-generated method stub
-			return 0;
 		}
 		
 		
