@@ -13,7 +13,7 @@ public class MapUtilities {
         if (map1.isEmpty() || map2.isEmpty()) {
             return 0;
         }
-        // using for-each loop for iteration over Map.entrySet()
+        // loop to compare key and value of hash map
         for (Map.Entry<String, String> entry : map1.entrySet()) {
             String key = entry.getKey();
             String value = entry.getValue();
